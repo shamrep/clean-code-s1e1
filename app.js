@@ -42,7 +42,8 @@ const createNewTaskElement = function (taskString) {
 
   deleteButton.appendChild(deleteButtonImg);
 
-  editButton.innerText = "Edit";
+  editButton.innerText = "Edit"; 
+
   editButton.className = "task__button task__button_edit";
 
   listItem.appendChild(checkBox);
