@@ -1,3 +1,13 @@
+:root {
+  --border-color: #333;
+  --background-color: #f8f8f8;
+  --input-color: #fff;
+  --input-text-color: #888;
+  --input-border-color: #ddd;
+  --border-bottom-color: #eee;
+  --button-hover-color: #3a3a3a;
+}
+
 /* Basic Style */
 body {
     background-color: #f8f8f8;
