@@ -43,7 +43,7 @@ const createNewTaskElement = function (taskString) {
   deleteButton.appendChild(deleteButtonImg);
 
   editButton.innerText = "Edit"; 
-  editButton.className = "task__button task__edit-button";
+  editButton.className = "task__button task__button_edit";
 
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
@@ -73,7 +73,6 @@ var editTask = function () {
   console.log("Change 'edit' to 'save'");
 
   var listItem = this.parentNode;
-
   var editInput = listItem.querySelector('.task__input');
   var label = listItem.querySelector(".task__label");
   var editBtn = listItem.querySelector(".task__button_edit");
@@ -91,7 +90,7 @@ var editTask = function () {
   }
 
   //toggle .editmode on the parent.
-  listItem.classList.toggle("editMode");
+  listItem.classList.toggle("task_edit-mode");
 };
 
 //Delete task.
