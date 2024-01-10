@@ -133,6 +133,10 @@
   width: 224px;
 }
 
+.task_edit-mode .task__label {
+  display: none;
+}
+
 .task__button {
   background: none;
   border: 0px;
